@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="328b93d1-99db-4c6f-9f69-fb18417cab43">
+  <producedTypes>
+    <objectType typeId="434289ad-5ab3-4742-b3cf-1527bb39a996" valueTypeId="2d64ee44-83c4-44b3-afc0-0797ab69f842"/>
+  </producedTypes>
+  <name>ВнешняяОбработкаТестСКонфигурацией</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешняя обработка тест с конфигурацией</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="36123944-8524-4ac8-91ed-b4d4e4f2c9d9"/>
+  <attributes uuid="7039bf4e-8650-4999-80bb-6e411f156337">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="e3e7b3dc-001b-4cfc-9ac4-7bfe149a4eed">
+    <producedTypes>
+      <objectType typeId="ca114245-67fb-4449-a805-b457d7b3a6b1" valueTypeId="663b3f2e-f07e-49b6-884a-3335fb387118"/>
+      <rowType typeId="05234fad-2fde-47d8-ad18-99d19f0eea66" valueTypeId="07fe214d-0d6a-4d2c-9e0a-f8f3fa6c40a3"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="0207b395-d358-48e9-b932-af87c478bd25">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="70805535-1236-4dc1-8a09-0ff8cf474096">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+</mdclass:ExternalDataProcessor>
