@@ -9,6 +9,7 @@
     <value>Внешняя обработка тест с конфигурацией</value>
   </synonym>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="36123944-8524-4ac8-91ed-b4d4e4f2c9d9"/>
+  <defaultForm>ExternalDataProcessor.ВнешняяОбработкаТестСКонфигурацией.Form.Форма</defaultForm>
   <attributes uuid="7039bf4e-8650-4999-80bb-6e411f156337">
     <name>Пользователь</name>
     <synonym>
@@ -61,4 +62,20 @@
       <maxValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
+  <forms uuid="87022970-209f-46cc-ae9a-4f974bf0fe5c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="51577694-2c36-4b09-aa70-c373e35c5979">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
 </mdclass:ExternalDataProcessor>
